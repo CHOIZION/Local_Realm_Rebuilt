@@ -1,0 +1,1 @@
+import{W as t,a as l,aX as a,n as o}from"./TVSv-jHB.js";function c(n){throw new Error("https://svelte.dev/e/lifecycle_outside_component")}function u(n){t===null&&c(),a&&t.l!==null?i(t).m.push(n):l(()=>{const e=o(n);if(typeof e=="function")return e})}function f(n){t===null&&c(),u(()=>()=>o(n))}function i(n){var e=n.l;return e.u??={a:[],b:[],m:[]}}export{f as a,u as o};

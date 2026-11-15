@@ -1,0 +1,62 @@
+[
+  {
+    "color": "#1f3b5c",
+    "id": 0,
+    "name": "Deep ocean"
+  },
+  {
+    "color": "#3a6f99",
+    "id": 1,
+    "name": "Shallow sea"
+  },
+  {
+    "color": "#dcc99a",
+    "id": 2,
+    "name": "Beach"
+  },
+  {
+    "color": "#93b35c",
+    "id": 3,
+    "name": "Grassland"
+  },
+  {
+    "color": "#4a7d3b",
+    "id": 4,
+    "name": "Forest"
+  },
+  {
+    "color": "#2a6a3e",
+    "id": 5,
+    "name": "Jungle"
+  },
+  {
+    "color": "#d9b46f",
+    "id": 6,
+    "name": "Desert"
+  },
+  {
+    "color": "#62704a",
+    "id": 7,
+    "name": "Swamp"
+  },
+  {
+    "color": "#a9b3a3",
+    "id": 8,
+    "name": "Tundra"
+  },
+  {
+    "color": "#8c8073",
+    "id": 9,
+    "name": "Mountain"
+  },
+  {
+    "color": "#eef2f5",
+    "id": 10,
+    "name": "Snow and ice"
+  },
+  {
+    "color": "#4f86b5",
+    "id": 12,
+    "name": "Lake"
+  }
+]

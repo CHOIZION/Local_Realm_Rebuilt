@@ -1,0 +1,333 @@
+[
+  {
+    "name": "Character",
+    "plural": "Characters",
+    "icon": "person",
+    "color": "#c98b5e",
+    "description": "People, creatures and anyone else with a name and a will.",
+    "sort_order": 10,
+    "layout": null,
+    "parent": null,
+    "properties": [
+      {
+        "key": "species",
+        "label": "Species",
+        "data_type": "entity_ref_multi",
+        "config": {
+          "target_category": "Species"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "age",
+        "label": "Age",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      },
+      {
+        "key": "height",
+        "label": "Height",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 30
+      },
+      {
+        "key": "occupation",
+        "label": "Occupation",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 40
+      },
+      {
+        "key": "languages",
+        "label": "Languages",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "Separate them with commas.",
+        "required": 0,
+        "sort_order": 50
+      },
+      {
+        "key": "home",
+        "label": "Home",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Location"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 60
+      },
+      {
+        "key": "affiliations",
+        "label": "Affiliations",
+        "data_type": "entity_ref_multi",
+        "config": {
+          "target_category": "Faction"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 70
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "data_type": "dropdown",
+        "config": {
+          "options": [
+            "Alive",
+            "Dead",
+            "Missing",
+            "Unknown"
+          ]
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 80
+      }
+    ]
+  },
+  {
+    "name": "Location",
+    "plural": "Locations",
+    "icon": "place",
+    "color": "#5e9dc9",
+    "description": "Anywhere something can happen.",
+    "sort_order": 20,
+    "layout": null,
+    "parent": null,
+    "properties": [
+      {
+        "key": "region",
+        "label": "Region",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "part_of",
+        "label": "Part of",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Location"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      },
+      {
+        "key": "ruled_by",
+        "label": "Ruled by",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Faction"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 30
+      }
+    ]
+  },
+  {
+    "name": "Settlement",
+    "plural": "Settlements",
+    "icon": "city",
+    "color": "#4f87ad",
+    "description": "Cities, towns and villages. Inherits every Location field.",
+    "sort_order": 21,
+    "layout": null,
+    "parent": "Location",
+    "properties": [
+      {
+        "key": "population",
+        "label": "Population",
+        "data_type": "integer",
+        "config": {},
+        "hint": "Approximate head count.",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "leader",
+        "label": "Leader",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Character"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      }
+    ]
+  },
+  {
+    "name": "Faction",
+    "plural": "Factions",
+    "icon": "group",
+    "color": "#9c7bc9",
+    "description": "Organisations, houses, guilds, nations of the mind.",
+    "sort_order": 30,
+    "layout": null,
+    "parent": null,
+    "properties": [
+      {
+        "key": "motto",
+        "label": "Motto",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "leader",
+        "label": "Leader",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Character"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      },
+      {
+        "key": "seat_of_power",
+        "label": "Seat of power",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Location"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 30
+      }
+    ]
+  },
+  {
+    "name": "Event",
+    "plural": "Events",
+    "icon": "event",
+    "color": "#c95e6e",
+    "description": "Battles, treaties, disasters, turning points.",
+    "sort_order": 40,
+    "layout": null,
+    "parent": null,
+    "properties": [
+      {
+        "key": "date",
+        "label": "Date",
+        "data_type": "world_date",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "participants",
+        "label": "Participants",
+        "data_type": "entity_ref_multi",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Location"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 30
+      }
+    ]
+  },
+  {
+    "name": "Species",
+    "plural": "Species",
+    "icon": "species",
+    "color": "#6ec95e",
+    "description": "Peoples, creatures and kinds.",
+    "sort_order": 50,
+    "layout": null,
+    "parent": null,
+    "properties": [
+      {
+        "key": "lifespan",
+        "label": "Lifespan",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "homeland",
+        "label": "Homeland",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Location"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      }
+    ]
+  },
+  {
+    "name": "Item",
+    "plural": "Items",
+    "icon": "item",
+    "color": "#c9b45e",
+    "description": "Objects, artefacts, weapons, relics.",
+    "sort_order": 60,
+    "layout": null,
+    "parent": null,
+    "properties": [
+      {
+        "key": "material",
+        "label": "Material",
+        "data_type": "short_text",
+        "config": {},
+        "hint": "",
+        "required": 0,
+        "sort_order": 10
+      },
+      {
+        "key": "owner",
+        "label": "Owner",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Character"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 20
+      },
+      {
+        "key": "origin",
+        "label": "Origin",
+        "data_type": "entity_ref",
+        "config": {
+          "target_category": "Location"
+        },
+        "hint": "",
+        "required": 0,
+        "sort_order": 30
+      }
+    ]
+  }
+]

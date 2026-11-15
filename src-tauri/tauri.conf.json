@@ -1,0 +1,32 @@
+{
+  "productName": "Local Realm Rebuilt",
+  "version": "1.9.0-rebuilt.1",
+  "identifier": "localrealm.rebuilt",
+  "build": {
+    "frontendDist": "../dist/frontend"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Local Realm Rebuilt",
+        "width": 1360,
+        "height": 880,
+        "minWidth": 720,
+        "minHeight": 480
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": []
+      }
+    }
+  },
+  "bundle": {
+    "active": false,
+    "icon": [
+      "icons/icon.ico"
+    ]
+  }
+}

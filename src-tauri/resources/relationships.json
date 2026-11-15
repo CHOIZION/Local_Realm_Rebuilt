@@ -1,0 +1,686 @@
+[
+  {
+    "group": "family",
+    "key": "PARENT_OF",
+    "label": "Parent of",
+    "inverse_key": "CHILD_OF",
+    "inverse_label": "Child of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "MOTHER_OF",
+    "label": "Mother of",
+    "inverse_key": "CHILD_OF",
+    "inverse_label": "Child of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "FATHER_OF",
+    "label": "Father of",
+    "inverse_key": "CHILD_OF",
+    "inverse_label": "Child of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "GRANDPARENT_OF",
+    "label": "Grandparent of",
+    "inverse_key": "GRANDCHILD_OF",
+    "inverse_label": "Grandchild of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "ANCESTOR_OF",
+    "label": "Ancestor of",
+    "inverse_key": "DESCENDANT_OF",
+    "inverse_label": "Descendant of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "AUNT_OR_UNCLE_OF",
+    "label": "Aunt or uncle of",
+    "inverse_key": "NIECE_OR_NEPHEW_OF",
+    "inverse_label": "Niece or nephew of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "ADOPTIVE_PARENT_OF",
+    "label": "Adoptive parent of",
+    "inverse_key": "ADOPTED_CHILD_OF",
+    "inverse_label": "Adopted child of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "STEP_PARENT_OF",
+    "label": "Step-parent of",
+    "inverse_key": "STEP_CHILD_OF",
+    "inverse_label": "Step-child of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "GUARDIAN_OF",
+    "label": "Guardian of",
+    "inverse_key": "WARD_OF",
+    "inverse_label": "Ward of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "SIBLING_OF",
+    "label": "Sibling of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "HALF_SIBLING_OF",
+    "label": "Half-sibling of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "TWIN_OF",
+    "label": "Twin of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "COUSIN_OF",
+    "label": "Cousin of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "IN_LAW_OF",
+    "label": "In-law of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "SPOUSE_OF",
+    "label": "Spouse of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "BETROTHED_TO",
+    "label": "Betrothed to",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "family",
+    "key": "PARTNER_OF",
+    "label": "Partner of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "FRIEND_OF",
+    "label": "Friend of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "CLOSE_FRIEND_OF",
+    "label": "Close friend of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "COMPANION_OF",
+    "label": "Companion of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "ACQUAINTANCE_OF",
+    "label": "Acquaintance of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "COLLEAGUE_OF",
+    "label": "Colleague of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "RIVAL_OF",
+    "label": "Rival of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "ENEMY_OF",
+    "label": "Enemy of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "SWORN_SIBLING_OF",
+    "label": "Sworn sibling of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "MENTOR_OF",
+    "label": "Mentor of",
+    "inverse_key": "STUDENT_OF",
+    "inverse_label": "Student of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "LOVES",
+    "label": "Loves",
+    "inverse_key": "LOVED_BY",
+    "inverse_label": "Loved by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "ADMIRES",
+    "label": "Admires",
+    "inverse_key": "ADMIRED_BY",
+    "inverse_label": "Admired by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "OWES_A_DEBT_TO",
+    "label": "Owes a debt to",
+    "inverse_key": "IS_OWED_A_DEBT_BY",
+    "inverse_label": "Is owed a debt by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "BETRAYED",
+    "label": "Betrayed",
+    "inverse_key": "BETRAYED_BY",
+    "inverse_label": "Betrayed by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "SAVED",
+    "label": "Saved",
+    "inverse_key": "SAVED_BY",
+    "inverse_label": "Saved by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "social",
+    "key": "KILLED",
+    "label": "Killed",
+    "inverse_key": "KILLED_BY",
+    "inverse_label": "Killed by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "LEADER_OF",
+    "label": "Leader of",
+    "inverse_key": "LED_BY",
+    "inverse_label": "Led by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "RULER_OF",
+    "label": "Ruler of",
+    "inverse_key": "RULED_BY",
+    "inverse_label": "Ruled by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "MEMBER_OF",
+    "label": "Member of",
+    "inverse_key": "HAS_MEMBER",
+    "inverse_label": "Has member",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "COMMANDER_OF",
+    "label": "Commander of",
+    "inverse_key": "SERVES_UNDER",
+    "inverse_label": "Serves under",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "EMPLOYER_OF",
+    "label": "Employer of",
+    "inverse_key": "EMPLOYED_BY",
+    "inverse_label": "Employed by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "MASTER_OF",
+    "label": "Master of",
+    "inverse_key": "SERVANT_OF",
+    "inverse_label": "Servant of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "LIEGE_LORD_OF",
+    "label": "Liege lord of",
+    "inverse_key": "VASSAL_OF",
+    "inverse_label": "Vassal of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "SWORN_TO",
+    "label": "Sworn to (oath)",
+    "inverse_key": "HOLDS_THE_OATH_OF",
+    "inverse_label": "Holds the oath of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "PATRON_OF",
+    "label": "Patron of",
+    "inverse_key": "PROTEGE_OF",
+    "inverse_label": "Protégé of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "ADVISOR_TO",
+    "label": "Advisor to",
+    "inverse_key": "ADVISED_BY",
+    "inverse_label": "Advised by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "HEIR_OF",
+    "label": "Heir of",
+    "inverse_key": "HAS_HEIR",
+    "inverse_label": "Has heir",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "SUCCESSOR_OF",
+    "label": "Successor of",
+    "inverse_key": "PREDECESSOR_OF",
+    "inverse_label": "Predecessor of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "FOUNDER_OF",
+    "label": "Founder of",
+    "inverse_key": "FOUNDED_BY",
+    "inverse_label": "Founded by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "CREATOR_OF",
+    "label": "Creator of",
+    "inverse_key": "CREATED_BY",
+    "inverse_label": "Created by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "OWNER_OF",
+    "label": "Owner of",
+    "inverse_key": "OWNED_BY",
+    "inverse_label": "Owned by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "PART_OF",
+    "label": "Part of",
+    "inverse_key": "CONTAINS",
+    "inverse_label": "Contains",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "CAPITAL_OF",
+    "label": "Capital of",
+    "inverse_key": "HAS_CAPITAL",
+    "inverse_label": "Has capital",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "LOCATED_IN",
+    "label": "Located in",
+    "inverse_key": "LOCATION_OF",
+    "inverse_label": "Location of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "LIVES_IN",
+    "label": "Lives in",
+    "inverse_key": "HOME_OF",
+    "inverse_label": "Home of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "BORN_IN",
+    "label": "Born in",
+    "inverse_key": "BIRTHPLACE_OF",
+    "inverse_label": "Birthplace of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "hierarchy",
+    "key": "DIED_IN",
+    "label": "Died in",
+    "inverse_key": "PLACE_OF_DEATH_OF",
+    "inverse_label": "Place of death of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "ALLIED_WITH",
+    "label": "Allied with",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "AT_WAR_WITH",
+    "label": "At war with",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "RIVAL_POWER_OF",
+    "label": "Rival power of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "TRADE_PARTNER_OF",
+    "label": "Trade partner of",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "TREATY_WITH",
+    "label": "Treaty with",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "NEUTRAL_TOWARD",
+    "label": "Neutral toward",
+    "inverse_key": null,
+    "inverse_label": null,
+    "symmetrical": true,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "OVERLORD_OF",
+    "label": "Overlord of",
+    "inverse_key": "VASSAL_STATE_OF",
+    "inverse_label": "Vassal state of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "PROTECTOR_OF",
+    "label": "Protector of",
+    "inverse_key": "PROTECTORATE_OF",
+    "inverse_label": "Protectorate of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "COLONIZER_OF",
+    "label": "Colonizer of",
+    "inverse_key": "COLONY_OF",
+    "inverse_label": "Colony of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "RECEIVES_TRIBUTE_FROM",
+    "label": "Receives tribute from",
+    "inverse_key": "TRIBUTARY_OF",
+    "inverse_label": "Tributary of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "OCCUPIES",
+    "label": "Occupies",
+    "inverse_key": "OCCUPIED_BY",
+    "inverse_label": "Occupied by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "ANNEXED",
+    "label": "Annexed",
+    "inverse_key": "ANNEXED_BY",
+    "inverse_label": "Annexed by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "EMBARGOES",
+    "label": "Embargoes",
+    "inverse_key": "EMBARGOED_BY",
+    "inverse_label": "Embargoed by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "SPIES_ON",
+    "label": "Spies on",
+    "inverse_key": "SPIED_ON_BY",
+    "inverse_label": "Spied on by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "CLAIMS",
+    "label": "Claims",
+    "inverse_key": "CLAIMED_BY",
+    "inverse_label": "Claimed by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "REBELS_AGAINST",
+    "label": "Rebels against",
+    "inverse_key": "FACES_REBELLION_FROM",
+    "inverse_label": "Faces rebellion from",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "BROKE_AWAY_FROM",
+    "label": "Broke away from",
+    "inverse_key": "LOST_TERRITORY_TO",
+    "inverse_label": "Lost territory to",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "SUCCESSOR_STATE_OF",
+    "label": "Successor state of",
+    "inverse_key": "PREDECESSOR_STATE_OF",
+    "inverse_label": "Predecessor state of",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "political",
+    "key": "SENDS_ENVOYS_TO",
+    "label": "Sends envoys to",
+    "inverse_key": "HOSTS_ENVOYS_FROM",
+    "inverse_label": "Hosts envoys from",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "spiritual",
+    "key": "WORSHIPS",
+    "label": "Worships",
+    "inverse_key": "WORSHIPPED_BY",
+    "inverse_label": "Worshipped by",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "spiritual",
+    "key": "PATRON_DEITY_OF",
+    "label": "Patron deity of",
+    "inverse_key": "HAS_PATRON_DEITY",
+    "inverse_label": "Has patron deity",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "spiritual",
+    "key": "FAMILIAR_OF",
+    "label": "Familiar of",
+    "inverse_key": "HAS_FAMILIAR",
+    "inverse_label": "Has familiar",
+    "symmetrical": false,
+    "custom": false
+  },
+  {
+    "group": "spiritual",
+    "key": "REINCARNATION_OF",
+    "label": "Reincarnation of",
+    "inverse_key": "REINCARNATED_AS",
+    "inverse_label": "Reincarnated as",
+    "symmetrical": false,
+    "custom": false
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "local-realm-rebuilt",
+  "version": "1.9.0-rebuilt.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:frontend": "node tools/build-frontend.mjs",
+    "test": "node --test tests/*.mjs",
+    "test:rust": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 -Action test",
+    "check:rust": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 -Action check",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 -Action release"
+  },
+  "engines": { "node": ">=22" }
+}

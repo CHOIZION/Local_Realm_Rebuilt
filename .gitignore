@@ -1,0 +1,7 @@
+/src-tauri/target/
+/src-tauri/gen/
+/tests/fixtures/reference/
+/dist/
+/deliverables/
+/node_modules/
+*.log
